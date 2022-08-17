@@ -11,41 +11,55 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
     position: sticky;
     top: 0;
     width: 100%;
   }
   
-  li {
+  #LogoName{
     float: left;
-  }
-  
-  li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #04AA6D;
+    font-size: 25px;
+    font-weight: bold;
   }
 
+  li {
+    float: right;
+  }
+  
 
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
+  
+
+
+
+
+  
+/* Landing Page First Slide*/
 #Main{
     background-color: rgb(245, 245, 245);
-    height: 10250px;
+    height: 750px;
     margin: 0;
 }
 
-
-/* Landing Page First Slide*/
 #Main h1{
     margin: 0;
 }
