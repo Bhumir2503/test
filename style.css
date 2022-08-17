@@ -1,29 +1,18 @@
-#box {
-    background-color: rgb(23, 156, 156);
-    color: white;
-    border: none;
-    border-radius: 50px;
-}
-
-#Name {
-    background-color: rgb(245, 245, 245);
-    height: 250px;
-}
-
-
 body{
     margin:0;
-    padding:0;
-    overflow-x:hidden;
+    padding: 0;
 }
 
+
+
+/* NAVIGATION BAR */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
   }
@@ -47,3 +36,24 @@ ul {
   .active {
     background-color: #04AA6D;
   }
+
+
+#Main{
+    background-color: rgb(245, 245, 245);
+    height: 10250px;
+    margin: 0;
+}
+
+
+/* Landing Page First Slide*/
+#Main h1{
+    margin: 0;
+}
+
+
+#box {
+    background-color: rgb(23, 156, 156);
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
