@@ -52,7 +52,7 @@ ul {
 
 
 
-  
+
 /* Landing Page First Slide*/
 #Main{
     background-color: rgb(245, 245, 245);
@@ -60,9 +60,6 @@ ul {
     margin: 0;
 }
 
-#Main h1{
-    margin: 0;
-}
 
 
 #box {
@@ -70,4 +67,5 @@ ul {
     color: white;
     border: none;
     border-radius: 50px;
+    font-size: 25px;
 }
